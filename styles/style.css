@@ -241,7 +241,7 @@
 @media (width >= 48em) {
   .header {
     display: grid;
-    min-height: 64rem;  
+    min-height: 64rem;
     padding: var(--offset-m, 1.25rem);
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr min-content 1fr;
@@ -313,7 +313,7 @@
 
   .article-list__alternate {
     grid-column: 1 / -1;
-    display: grid;    
+    display: grid;
     grid-template-columns: 1fr;
     gap: var(--offset-m, 1.25rem);
   }
@@ -365,7 +365,6 @@
   .header {
     display: grid;
     min-height: 48rem;
-    /*max-height: 100dvh;*/        
     padding: var(--offset-m, 1.25rem);
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr min-content 1fr;
@@ -441,7 +440,7 @@
 
   .article-list__alternate {
     grid-column: 1 / -1;
-    display: grid;    
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 

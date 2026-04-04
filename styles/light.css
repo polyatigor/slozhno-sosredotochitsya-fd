@@ -36,8 +36,8 @@
     --accent-color-hover: #353430;
   }
 
-  .decorated-item, 
-  .decorated-item::after  {
+  .decorated-item,
+  .decorated-item::after {
     display: none;
   }
 }
