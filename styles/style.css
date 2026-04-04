@@ -406,7 +406,6 @@
   .content-section:last-of-type {
     grid-template-columns: 1fr;
     grid-auto-rows: min-content;
-    gap: 0.3125rem;
   }
 
   .article-title {
@@ -432,12 +431,8 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .content-wrapper {    
+  .content-wrapper {
     grid-template-rows: min-content 1fr;
-  }
-
-  .content-section:last-of-type {
-    gap: var(--offset-m, 1.25rem);
   }
 
   .image-list {
