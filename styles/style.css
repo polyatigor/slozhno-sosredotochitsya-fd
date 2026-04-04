@@ -125,7 +125,7 @@
   align-self: center;
 }
 
-.title__decor {  
+.title__decor {
   background-color: var(--accent-color, #FF0070);
 }
 
@@ -176,8 +176,7 @@
  }
 
  .content-section,
- .article-list
-  {
+ .article-list {
   gap: var(--offset-m, 1.25rem);
  }
 
